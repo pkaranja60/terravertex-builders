@@ -1,13 +1,15 @@
 import Hero from "@/components/home features/Hero";
+import Highlights from "@/components/home features/Higlights";
 import React from "react";
 
 export default function Home() {
   return (
     <>
-      <div className="w-full px-16">
-        {/* Hero Section */}
-        <Hero />
-      </div>
+      {/* Hero Section */}
+      <Hero />
+
+      {/* Highlights Section */}
+      <Highlights />
     </>
   );
 }

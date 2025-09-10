@@ -5,19 +5,20 @@ import { Button } from "../ui/button";
 function Hero() {
   return (
     <>
-      <div className="w-full flex items-center pt-28 pb-28 gap-20">
+      <div className="w-full flex items-center pt-28 pb-28 gap-20 px-16">
         <div className="w-1/2">
           <h1 className="text-[56px] mb-6">
             Building the Future with Strength and Innovation
           </h1>
-          <p className="mt-6 text-lg mb-8">
+          <p className="text-lg mb-8">
             At TerraVertex Builders, we merge the power of nature with
             pioneering technology to deliver exceptional construction solutions.
             Our commitment to quality and sustainability sets us apart in every
             project we undertake.
           </p>
 
-          <div className="flex gap-4">
+          {/* buttons */}
+          <div className="flex items-center gap-4">
             <Button className="w-[137px] h-[44px] rounded-xl bg-gradient-to-r from-[#FB840C] via-pink-700 to-[#5617F9] to-90% text-white">
               Learn More
             </Button>
@@ -28,7 +29,7 @@ function Hero() {
         </div>
         <div className="w-1/2">
           <Image
-            src="/images/hero.jpg"
+            src="/images/hero.svg"
             alt="hero"
             className="object-contain "
             priority
