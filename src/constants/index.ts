@@ -50,3 +50,32 @@ export const testimonials = [
     image_url: "https://example.com/images/daniel.jpg",
   },
 ];
+
+
+export const questions = [
+  {
+    question: "What services do you offer?",
+    answer:
+      "We offer a wide range of construction services, including residential, commercial, and infrastructure projects. Our team is dedicated to delivering high-quality and sustainable solutions tailored to your needs. We prioritize eco-friendly practices in every build.",
+  },
+  {
+    question: "How do you ensure quality?",
+    answer:
+      "Quality is at the core of our operations. We implement rigorous quality control measures throughout the construction process. Our skilled team ensures that every project meets the highest standards.",
+  },
+  {
+    question: "What is your process?",
+    answer:
+      "Our process begins with a thorough consultation to understand your vision and requirements. We then create a detailed plan, ensuring transparency and collaboration at every stage. This approach guarantees that your project is completed on time and within budget.",
+  },
+  {
+    question: "Do you offer warranties?",
+    answer:
+      "Yes, we provide warranties on our construction services to ensure your peace of mind. Our commitment to quality means we stand behind our work. If any issues arise, we are here to address them promptly.",
+  },
+  {
+    question: "How can I get started?",
+    answer:
+      "Getting started is easy! Simply reach out to us through our contact form or give us a call. Our team will guide you through the next steps and help turn your vision into reality.",
+  },
+];
