@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 function Hero() {
   return (
     <>
-      <div className="w-full flex items-center pt-28 pb-28 gap-20 px-16">
+      <div className="w-full flex items-center pt-28 pb-28 gap-20 px-16 bg-white">
         <div className="w-1/2">
           <h1 className="text-[56px] mb-6">
             Building the Future with Strength and Innovation
