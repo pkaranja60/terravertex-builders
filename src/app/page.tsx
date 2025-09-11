@@ -1,5 +1,6 @@
 import Hero from "@/components/home features/Hero";
 import Highlights from "@/components/home features/Higlights";
+import Testimonials from "@/components/home features/Testimonials";
 import React from "react";
 
 export default function Home() {
@@ -10,6 +11,9 @@ export default function Home() {
 
       {/* Highlights Section */}
       <Highlights />
+
+      {/* Testimonials Section */}
+      <Testimonials />
     </>
   );
 }

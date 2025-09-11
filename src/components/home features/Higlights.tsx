@@ -61,7 +61,7 @@ export default function Highlights() {
               Explore
             </Button>
             <Button className="w-[98px] h-[44px] shadow-none">
-              Contact <ChevronRight size={24} className="w-24 h-24" />
+              Contact <ChevronRight size={24} className="w-6 h-6" />
             </Button>
           </div>
         </div>
@@ -103,7 +103,7 @@ export default function Highlights() {
               From custom homes to renovations, we create spaces that inspire.
             </p>
             <Button className="mt-8 flex items-center ">
-              Learn More <ChevronRight size={24} className="w-24 h-24" />
+              Learn More <ChevronRight size={24} className="w-6 h-6" />
             </Button>
           </div>
 
@@ -125,7 +125,7 @@ export default function Highlights() {
               and aesthetics.
             </p>
             <Button className="mt-8 flex items-center ">
-              Learn More <ChevronRight size={24} className="w-24 h-24" />
+              Learn More <ChevronRight size={24} className="w-6 h-6" />
             </Button>
           </div>
 
@@ -147,7 +147,7 @@ export default function Highlights() {
               sustainability for all.
             </p>
             <Button className="mt-8 flex items-center ">
-              Learn More <ChevronRight size={24} className="w-24 h-24" />
+              Learn More <ChevronRight size={24} className="w-6 h-6" />
             </Button>
           </div>
         </div>
@@ -175,7 +175,7 @@ export default function Highlights() {
               Learn More
             </Button>
             <Button className="w-[98px] h-[44px] shadow-none">
-            Sign Up <ChevronRight size={24} className="w-24 h-24" />
+              Sign Up <ChevronRight size={24} className="w-6 h-6" />
             </Button>
           </div>
         </div>
