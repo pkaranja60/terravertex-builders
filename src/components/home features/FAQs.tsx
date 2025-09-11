@@ -1,13 +1,6 @@
 import React from "react";
 import { Button } from "../ui/button";
 import {
-  Card,
-  CardAction,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "../ui/card";
-import {
   Accordion,
   AccordionContent,
   AccordionItem,
