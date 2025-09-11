@@ -27,7 +27,7 @@ function getStars(rating: number, maxStars: number = 5): string {
 
 export default function Testimonials() {
   const plugin = React.useRef(
-    Autoplay({ delay: 2000, stopOnInteraction: true })
+    Autoplay({ delay: 8000, stopOnInteraction: true })
   );
   return (
     <>
@@ -83,7 +83,7 @@ export default function Testimonials() {
       <div className="w-full pt-28 pb-28 gap-20 bg-[#0D0701] px-16 text-white">
         <div className="w-[768px] h-[212px] flex flex-col items-center justify-center text-center mx-auto">
           <h2 className="text-5xl">Build Your Dream Project Today</h2>
-          <p className="font-medium mt-6 mb-8">
+          <p className="text-lg font-medium mt-6 mb-8">
             Contact TerraVertex Builders to bring your construction vision to
             life with our expert team.
           </p>

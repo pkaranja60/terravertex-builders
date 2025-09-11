@@ -32,7 +32,7 @@ export default function Highlights() {
                 height={40}
               />
               <h6 className="text-xl mb-4">Quality Assurance</h6>
-              <p>
+              <p className="text-base">
                 We ensure every build meets the highest standards of excellence
                 and sustainability.
               </p>
@@ -48,7 +48,7 @@ export default function Highlights() {
                 height={40}
               />
               <h6 className="text-xl mb-4">Innovative Designs</h6>
-              <p>
+              <p className="text-base">
                 Our forward-thinking designs elevate construction, combining
                 functionality with aesthetic appeal.
               </p>
@@ -99,7 +99,7 @@ export default function Highlights() {
               Building Dreams: Our Expertise in Residential Construction
               Services
             </h5>
-            <p>
+            <p className="text-base">
               From custom homes to renovations, we create spaces that inspire.
             </p>
             <Button className="mt-8 flex items-center ">
@@ -120,7 +120,7 @@ export default function Highlights() {
               Transforming Businesses: Our Commitment to Commercial Construction
               Excellence
             </h5>
-            <p>
+            <p className="text-base">
               We deliver innovative commercial spaces that enhance functionality
               and aesthetics.
             </p>
@@ -142,7 +142,7 @@ export default function Highlights() {
               Infrastructure Projects: Building the Foundations of Our
               Communities
             </h5>
-            <p>
+            <p className="text-base">
               Our infrastructure solutions ensure safety, efficiency, and
               sustainability for all.
             </p>
