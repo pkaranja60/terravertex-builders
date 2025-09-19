@@ -1,36 +1,170 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+# Terravertex - Next.js Project
+
+Welcome to the documentation for the Terravertex project, built using Next.js. This guide will help you understand the structure and features of the project.
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Project Structure](#project-structure)
+- [Running the Application](#running-the-application)
+- [Development Tools](#development-tools)
+- [Environment Variables](#environment-variables)
+- [Contributing](#contributing)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+Before starting, ensure you have the following installed:
+
+- Node.js (v16 or higher)
+- npm (v7.0.0 or higher) or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/terravertex.git
+   cd terravertex
+   ```
+
+2. Install dependencies:
+   ```bash
+   pnpm install
+   # or
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Start the development server:
+   ```bash
+   pnpm run dev
+   # or
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+### Running the Application
+
+After installation, you can start the development server to view your application at [http://localhost:3000](http://localhost:3000).
+
+## Project Structure
+
+The project is structured as follows:
+
+```
+ terravertex/
+├── .gitignore
+├── README.md
+├── app/
+│   ├── about_us/
+│   │   └── page.tsx
+│   ├── layouts/
+│   │   └── RootLayout.tsx
+│   ├── pages/
+│   │   ├── _app.tsx
+│   │   ├── about.tsx
+│   │   ├── projects.tsx
+│   │   ├── our_services.tsx
+│   │   └── page.tsx
+│   ├── public/
+│   │   ├── assets/
+│   │   └── favicon.ico
+│   └── styles/
+│       └── globals.css
+├── components/
+│   ├── home features/
+│   │   ├── CTASection.tsx
+│   │   ├── FAQs.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Highlights.tsx
+│   │   ├── OurTeam.tsx
+│   │   └── Testimonials.tsx
+│   ├── ui/
+│   │   ├── accordion.tsx
+│   │   └── carousel.tsx
+│   └── utils/
+├── lib/
+│   └── copyRightYear.ts
+├── next.config.js
+├── postcss.config.mjs
+├── pnpm-lock.yaml
+└── package.json
+```
+
+- **app/**: Contains the main routes and components of your application.
+  - **about_us/**, **our_services/**, etc.: Specific pages related to different sections of the website.
+  - **pages/**: The entry points for each route in your app. These files define how users interact with different parts of your site.
+
+- **components/**: Contains reusable UI components used across the application.
+  - **home features/**: Components related to the homepage features like CTA, FAQs, Hero, Highlights, OurTeam, and Testimonials.
+  - **ui/**: Components from Tailwind CSS UI that are specifically tailored for this project.
+  - **utils/**: Utility functions and logic used throughout the app.
+
+- **lib/**: Contains shared utility functions or services.
+
+- **next.config.js**: Configuration file to customize Next.js behavior, such as routes, server settings, etc.
+
+- **postcss.config.mjs**: Configuration for Tailwind CSS PostCSS integration.
+
+- **pnpm-lock.yaml**: Dependency management lock file for pnpm.
+
+- **package.json**: Project metadata and dependencies.
+
+## Running the Application
+
+To start the development server:
 
 ```bash
+pnpm run dev
+# or
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This command will compile your code, serve it locally on `http://localhost:3000`, and automatically reload when you make changes to the source files.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Development Tools
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js**: The framework used for building server-side rendered React applications.
+- **Tailwind CSS**: A utility-first CSS framework that provides a modern, easy-to-use interface for styling your application.
+- **ESLint**: A linter tool to help maintain code quality and consistency.
+- **Prettier**: An opinionated code formatter that enforces consistent formatting.
 
-## Learn More
+## Environment Variables
 
-To learn more about Next.js, take a look at the following resources:
+Environment variables are stored in the `.env` file. Commonly used environment variables include:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `NEXT_PUBLIC_STRIPE_PUBLIC_KEY`: Stripe API key for payments.
+- `NEXT_PUBLIC_GOOGLE_CLIENT_ID`: Google OAuth client ID for authentication.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To use environment variables, you can access them in your code using the `process.env.VAR_NAME` syntax. For example:
 
-## Deploy on Vercel
+```javascript
+export default function Home() {
+  return (
+    <div>
+      {process.env.NEXT_PUBLIC_STRIPE_PUBLIC_KEY}
+    </div>
+  );
+}
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+We welcome contributions! 🚀  
+Follow the steps below to get started:
+
+## How to Contribute
+
+1. **Fork the Repository**  
+   Clone the repository to your local machine.
+
+2. **Create a Branch**  
+   ```bash
+   git checkout -b feature/your-feature-name

@@ -5,6 +5,7 @@ import Navlink from "./Navlink";
 import { Button } from "./ui/button";
 import { motion, AnimatePresence } from "motion/react";
 import { IoCloseOutline, IoMenuOutline } from "react-icons/io5";
+import Image from "next/image";
 
 const links = [
   { url: "/", title: "Home" },
@@ -23,7 +24,16 @@ export default function Navbar() {
     <>
       <nav className="w-full h-[72px] fixed top-0 z-50 flex items-center justify-between px-4 sm:px-8 lg:px-16 bg-white shadow-sm">
         {/* logo */}
-        <div className="text-xl font-bold">TerraVertex</div>
+        <div className="flex items-center gap-4">
+          <Image
+            src="/logo2.png"
+            alt="logo"
+            width={1024}
+            height={1024}
+            className="w-[72px] h-[72px] object-contain rounded-full hidden md:block"
+          />
+          <h1 className="text-3xl font-medium line-clamp-2 ">TerraVertex</h1>
+        </div>
 
         {/* Desktop menu */}
         <div className="hidden lg:flex items-center gap-8">

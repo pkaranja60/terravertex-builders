@@ -4,6 +4,7 @@ import { Button } from "./ui/button";
 import { links } from "@/constants";
 import Link from "next/link";
 import { copyRightNotice } from "@/lib/copyRightYear";
+import Image from "next/image";
 
 type FooterLinkProps = {
   title: string;
@@ -84,7 +85,9 @@ export default function Footer() {
         {/* Footer bottom */}
         <div className="flex flex-col sm:flex-row items-center justify-between mt-12 lg:mt-20 pt-8 border-t border-[#0D0701]/15 gap-4">
           {/* logo */}
-          <div className="text-xl font-bold">TerraVertex Builders</div>
+       
+            <Image src='/logo.png' alt='logo' width={1024} height={1024} className="w-32 h-auto rounded-full"/>
+    
 
           <div className="text-center sm:text-right">
             <p className="text-sm">
