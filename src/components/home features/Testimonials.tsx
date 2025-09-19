@@ -12,9 +12,8 @@ import { testimonials } from "@/constants";
 import Image from "next/image";
 import { Button } from "../ui/button";
 import Autoplay from "embla-carousel-autoplay";
-import { CiStar } from "react-icons/ci";
 
-function getStars(rating: number, maxStars: number = 5): string {
+function getStars(rating: number): string {
   const fullStar = "⭐";
   return fullStar.repeat(rating);
 }
