@@ -43,7 +43,7 @@ export const testimonials = [
     name: "Daniel Kiptoo",
     project: "Driveway & Landscaping",
     testimonial:
-      "The workmanship was excellent, and the new driveway has really boosted our home’s curb appeal. Highly recommended!",
+      "The workmanship was excellent, and the new driveway has really boosted our home&apos;s curb appeal. Highly recommended!",
     rating: 4,
     date: "20/03/2025",
     location: "Eldoret, Kenya",
