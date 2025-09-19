@@ -1,7 +1,7 @@
 
 # Terravertex - Next.js Project
 
-Welcome to the documentation for the Terravertex project, built using Next.js. This guide will help you understand the structure and features of the project.
+**Terravertex Builders** is a modern web application built with Next.js and Tailwind CSS, designed to showcase construction and infrastructure services. The platform provides detailed insights into the team's expertise, featured projects, client testimonials, and frequently asked questions, making it ideal for construction firms looking to highlight their capabilities and engage potential clients.
 
 ## Table of Contents
 
