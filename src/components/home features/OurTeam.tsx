@@ -71,7 +71,7 @@ export default function OurTeam() {
 
         {/* Job Hiring */}
         <div className="text-center lg:text-left">
-          <h4 className="text-2xl sm:text-3xl lg:text-[32px]">We're Hiring!</h4>
+          <h4 className="text-2xl sm:text-3xl lg:text-[32px]">We&apos;re Hiring!</h4>
           <p className="text-base lg:text-lg mt-4 mb-6">
             Join our growing team of construction experts.
           </p>
