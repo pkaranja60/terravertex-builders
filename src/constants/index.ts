@@ -51,7 +51,6 @@ export const testimonials = [
   },
 ];
 
-
 export const questions = [
   {
     question: "What services do you offer?",
@@ -79,3 +78,99 @@ export const questions = [
       "Getting started is easy! Simply reach out to us through our contact form or give us a call. Our team will guide you through the next steps and help turn your vision into reality.",
   },
 ];
+
+export const team = [
+  {
+    name: "John Doe",
+    title: "Project Manager",
+    description:
+      "John ensures that every project is completed on time and within budget.",
+    socialMedia: ["LinkedIn", "Twitter", "Dribbble"],
+    image: "/images/Image_3.svg",
+  },
+  {
+    name: "Jane Smith",
+    title: "Lead Architect",
+    description:
+      "Jane designs innovative structures that blend functionality with aesthetic appeal.",
+    socialMedia: ["LinkedIn", "Twitter", "Dribbble"],
+    image: "/images/Image_4.svg",
+  },
+  {
+    name: "Michael Brown",
+    title: "Site Supervisor",
+    description:
+      "Michael oversees daily operations to ensure safety and quality standards are met.",
+    socialMedia: ["LinkedIn", "Twitter", "Dribbble"],
+    image: "/images/Image_5.svg",
+  },
+  {
+    name: "Emily White",
+    title: "Construction Engineer",
+    description:
+      "Emily applies her engineering expertise to solve complex construction challenges.",
+    socialMedia: ["LinkedIn", "Twitter", "Dribbble"],
+    image: "/images/Image_6.svg",
+  },
+  {
+    name: "David Green",
+    title: "Quality Assurance",
+    description:
+      "David ensures that our projects meet the highest quality standards throughout the construction process.",
+    socialMedia: ["LinkedIn", "Twitter", "Dribbble"],
+    image: "/images/Image_8.svg",
+  },
+  {
+    name: "Sarah Johnson",
+    title: "Marketing Specialist",
+    description:
+      "Sarah promotes our brand and connects with clients through innovative marketing strategies.",
+    socialMedia: ["LinkedIn", "Twitter", "Dribbble"],
+    image: "/images/Image_7.svg",
+  },
+];
+
+export const links = {
+  quickLinks: [
+    { name: "About Us", href: "/about" },
+    { name: "Our Services", href: "/services" },
+    { name: "Contact Us", href: "/contact" },
+    { name: "Blog Posts", href: "/blog" },
+    { name: "Testimonials", href: "/testimonials" },
+  ],
+  resources: [
+    { name: "FAQs", href: "/faqs" },
+    { name: "Case Studies", href: "/case-studies" },
+    { name: "Sustainability", href: "/sustainability" },
+    { name: "Careers", href: "/careers" },
+    { name: "Privacy Policy", href: "/privacy-policy" },
+  ],
+  connectWithUs: [
+    { name: "Facebook", href: "https://facebook.com" },
+    { name: "Twitter", href: "https://twitter.com" },
+    { name: "LinkedIn", href: "https://linkedin.com" },
+    { name: "Instagram", href: "https://instagram.com" },
+    { name: "YouTube", href: "https://youtube.com" },
+  ],
+  companyInfo: [
+    { name: "Our Story", href: "/our-story" },
+    { name: "Our Team", href: "/team" },
+    { name: "Client List", href: "/clients" },
+    { name: "Newsroom", href: "/newsroom" },
+    { name: "Support Center", href: "/support" },
+  ],
+  legal: [
+    { name: "Terms of Service", href: "/terms" },
+    { name: "Cookie Policy", href: "/cookie-policy" },
+    { name: "Accessibility Statement", href: "/accessibility" },
+    { name: "Copyright Notice", href: "/copyright" },
+    { name: "User Agreement", href: "/user-agreement" },
+  ],
+  contactUs: [
+    { name: "Email Support", href: "mailto:support@example.com" },
+    { name: "Call Us", href: "tel:+1234567890" },
+    { name: "Live Chat", href: "/live-chat" },
+    { name: "Help Center", href: "/help" },
+    { name: "Feedback", href: "/feedback" },
+  ],
+};
