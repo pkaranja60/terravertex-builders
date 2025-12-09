@@ -4,6 +4,7 @@ import React from "react";
 import { Button } from "../ui/button";
 import { FaLinkedin, FaDribbble } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import Link from "next/link";
 
 const socialIcons = {
   LinkedIn: <FaLinkedin size={24} className="rounded-lg" />,
@@ -34,14 +35,14 @@ function TeamMemberCard() {
           </div>
           <div className="flex items-center gap-4">
             {member.socialMedia.map((platform) => (
-              <a
+              <Link
                 key={platform}
                 href="#"
                 aria-label={platform}
                 className="hover:text-blue-500 transition-colors duration-300"
               >
                 {socialIcons[platform as keyof typeof socialIcons] || platform}
-              </a>
+              </Link>
             ))}
           </div>
         </div>
