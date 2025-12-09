@@ -11,7 +11,7 @@ import { questions } from "@/constants";
 export default function FAQs() {
   return (
     <>
-      <div className="w-full flex flex-col lg:flex-row items-start pt-16 lg:pt-28 pb-16 lg:pb-28 gap-8 lg:gap-20 bg-[#643404] px-4 sm:px-8 lg:px-16 text-white">
+      <div className="w-full flex flex-col lg:flex-row items-center pt-16 lg:pt-28 pb-16 lg:pb-28 gap-8 lg:gap-20 bg-[#643404] px-4 sm:px-8 lg:px-16 text-white">
         <div className="w-full lg:w-[500px] flex flex-col items-center lg:items-start text-center lg:text-left">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl mb-4">FAQs</h2>
           <p className="text-base lg:text-lg font-medium mb-6 lg:mb-8">
